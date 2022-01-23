@@ -89,7 +89,7 @@ setup(
     ext_modules=get_ext_modules(),
     install_requires=Path("requirements.txt").read_text().splitlines(),
     extras_require={
-        "tensorflow": ["tensorflow>={},<{}".format(min_tf_version, max_tf_version)],
+        "tensorflow-macos": ["tensorflow-macos>={},<{}".format(min_tf_version, max_tf_version)],
         "tensorflow-gpu": [
             "tensorflow-gpu>={},<{}".format(min_tf_version, max_tf_version)
         ],
