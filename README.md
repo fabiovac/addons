@@ -1,3 +1,15 @@
+## What is this repo for?
+This repository is a fork of the original tensorflow/addons repo to solve the following issue: when installing tensorflow-addons with tensorflow provided by [Apple](https://developer.apple.com/metal/tensorflow-plugin/) the installation goes wrong.
+
+## How to install?
+To install the latest supported version:
+```
+pip install https://github.com/fabiovac/tensorflow-addons.git
+```
+To install a previous version refer in the pip command to a different branch. Keep in mind that supported versions are r0.10-r0.15. Refer to the official table for compatibility with Python and Tensorflow versions.
+
+-----------------
+
 <div align="center">
   <img src="https://github.com/tensorflow/community/blob/master/sigs/logos/SIGAddons.png" width="60%"><br><br>
 </div>
